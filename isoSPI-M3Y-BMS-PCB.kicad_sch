@@ -22080,7 +22080,7 @@
 	)
 	(text "Data must be after En"
 		(exclude_from_sim no)
-		(at 435.864 195.072 0)
+		(at 436.372 196.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22427,9 +22427,9 @@
 		)
 		(uuid "de58b000-8f77-480c-8349-c66b32b8ed37")
 	)
-	(text "H must be after L"
+	(text "L must be after H"
 		(exclude_from_sim no)
-		(at 434.594 200.152 0)
+		(at 434.086 201.676 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73072,7 +73072,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 467.36 231.14 90)
+		(at 481.33 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73080,7 +73080,7 @@
 		(dnp no)
 		(uuid "98e47a36-b239-43e7-b065-c3dbe9a305ec")
 		(property "Reference" "TP15"
-			(at 470.916 231.394 90)
+			(at 484.886 216.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73088,7 +73088,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 466.852 247.904 90)
+			(at 480.822 232.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73097,7 +73097,7 @@
 			)
 		)
 		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
-			(at 467.36 231.14 0)
+			(at 481.33 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73106,7 +73106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 467.36 231.14 0)
+			(at 481.33 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73115,7 +73115,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 467.36 231.14 0)
+			(at 481.33 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
