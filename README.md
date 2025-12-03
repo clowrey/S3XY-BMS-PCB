@@ -4,7 +4,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![KiCad](https://img.shields.io/badge/KiCad-8.0+-blue.svg)](https://www.kicad.org/)
-[![RP2350A](https://img.shields.io/badge/MCU-RP2350A-green.svg)](https://www.raspberrypi.com/products/rp2350/)
+[![RP2350B](https://img.shields.io/badge/MCU-RP2350B-green.svg)](https://www.raspberrypi.com/products/rp2350/)
 
 This repository contains the **KiCad PCB design files** for a replacement Battery Management System (BMS) designed for Tesla Model 3 and Model Y battery packs. This hardware interfaces with high-voltage (400V) battery modules using the isoSPI protocol and provides comprehensive monitoring, control, and safety features.
 
