@@ -311,6 +311,27 @@ This PCB is designed to work with the companion firmware:
 6. Configure using serial commands
 7. Optional: Integrate with ESPHome for monitoring and display
 
+### Optional: ESPHome Display Integration
+
+The firmware supports integration with ESPHome for advanced monitoring via touchscreen displays:
+
+**ESPHome Features:**
+- **Three-Page Display Interface:**
+  - Main overview with key parameters
+  - Detailed battery information
+  - Cell voltage graph (all 108 cells visualized)
+- **Real-time Monitoring:** Live parameter updates every 5-10 seconds
+- **Touch Controls:** Balance on/off, page navigation
+- **Home Assistant Integration:** All BMS parameters as HA entities
+- **Professional UI:** LVGL-based interface optimized for 480x320 displays
+
+**Supported Hardware:**
+- JC4832W535 480x320 QSPI touchscreen
+- ESP32-S3 based display modules
+- WiFi connectivity for OTA updates
+
+See the [ESPHome interface documentation](https://github.com/clowrey/isoSPI-M3Y-BMS/tree/main/esphome-interface) in the firmware repository for setup instructions.
+
 ---
 
 ## ⚠️ Hardware Safety
