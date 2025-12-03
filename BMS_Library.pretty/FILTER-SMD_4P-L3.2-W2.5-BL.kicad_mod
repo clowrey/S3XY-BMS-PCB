@@ -1,0 +1,131 @@
+(footprint "FILTER-SMD_4P-L3.2-W2.5-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.53 0)
+		(layer "F.SilkS")
+		(uuid "c38ee8ce-e9c9-41f9-9ba7-033e9a121319")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FILTER-SMD_4P-L3.2-W2.5-BL"
+		(at 0 5.53 0)
+		(layer "F.Fab")
+		(uuid "1951a89a-8147-4590-8c8a-d8a1e3122a67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7f0caf3-8d67-4c70-99f8-f61613af56c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d5fc31d-e09a-46f4-b626-1d5361dc77cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.33 1.7)
+		(end -1.33 -1.66)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d3a9f66-a42c-4001-8771-3486ff4ec7de")
+	)
+	(fp_line
+		(start 1.33 1.7)
+		(end 1.33 -1.66)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2126b085-cc8f-45bf-89f8-ef2d0977ce11")
+	)
+	(fp_circle
+		(center -1.25 1.62)
+		(end -1.22 1.62)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "27fd9d08-e354-42d1-be02-89eb870e7782")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c6a48b1f-dc08-4801-89b3-8b5463bbd81c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 1.53)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4425e59a-d6a0-42eb-81bd-9bcf72c89c1e")
+	)
+	(pad "2" smd rect
+		(at -0.85 -1.53)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d5118a6-0949-4b5f-9383-70475dd8b604")
+	)
+	(pad "3" smd rect
+		(at 0.85 -1.53)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3ac61ce-a163-4757-97e4-34f2846817e9")
+	)
+	(pad "4" smd rect
+		(at 0.85 1.53)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6c927d5d-8655-4686-a077-58dfff2c6952")
+	)
+	(embedded_fonts no)
+	(model "../common-mode-filters.3dshapes/FILTER-SMD_4P-L3.2-W2.5-H1.9.wrl"
+		(offset
+			(xyz 0 -0.02 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)

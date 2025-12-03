@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMS_Library")(type "KiCad")(uri "${KIPRJMOD}/BMS_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2350_80QFN")(type "KiCad")(uri "${KIPRJMOD}/RP2350B/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
+)
