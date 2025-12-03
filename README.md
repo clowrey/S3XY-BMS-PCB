@@ -4,7 +4,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![KiCad](https://img.shields.io/badge/KiCad-8.0+-blue.svg)](https://www.kicad.org/)
-[![RP2350B](https://img.shields.io/badge/MCU-RP2350B-green.svg)](https://www.raspberrypi.com/products/rp2350/)
+[![RP2354B](https://img.shields.io/badge/MCU-RP2354B-green.svg)](https://www.raspberrypi.com/products/rp2350/)
 
 This repository contains the **KiCad PCB design files** for a replacement Battery Management System (BMS) designed for Tesla Model 3 and Model Y battery packs. This hardware interfaces with high-voltage (400V) battery modules using the isoSPI protocol and provides comprehensive monitoring, control, and safety features.
 
@@ -46,7 +46,7 @@ Tesla Model 3 and Model Y battery packs utilize a modular architecture:
 
 | Feature | Implementation |
 |---------|----------------|
-| **Microcontroller** | Raspberry Pi RP2350A (dual Cortex-M33, 150MHz) |
+| **Microcontroller** | Raspberry Pi RP2354B (dual Cortex-M33, 150MHz) |
 | **Current Sensing** | Texas Instruments INA228 (20-bit ADC) |
 | **Pack Voltage** | 4-channel ADC with precision voltage dividers |
 | **CAN Interface** | Hardware CAN transceiver (500kbps) |
@@ -119,7 +119,7 @@ isoSPI-M3Y-BMS-PCB/
 - 3.3V LDO for MCU and logic
 - Isolated power for isoSPI interface
 
-### Microcontroller (RP2350A)
+### Microcontroller (RP2354B)
 - QFN-60 package with thermal pad
 - Crystal oscillator for precision timing
 - JTAG/SWD debug interface
@@ -236,7 +236,7 @@ The project includes `fabrication-toolkit-options.json` for automated manufactur
 ### Component Sourcing
 
 - Most components available from Digi-Key, Mouser, or LCSC
-- RP2350A: Available from Raspberry Pi approved distributors
+- RP2354B: Available from Raspberry Pi approved distributors
 - INA228: Texas Instruments or authorized distributors
 - Connectors: Match to Tesla pack interface specifications
 
@@ -260,7 +260,7 @@ This PCB is designed to work with the companion firmware:
 ### ✅ Implemented Features (v2.0.0)
 
 **Hardware Drivers:**
-- RP2350A microcontroller with dual Cortex-M33 cores
+- RP2354B microcontroller with dual Cortex-M33 cores
 - INA228 current/voltage/power sensor driver
 - Internal ADC for pack voltage monitoring (4 channels)
 - Contactor control (4 channels, sequenced activation)
@@ -308,7 +308,7 @@ This PCB is designed to work with the companion firmware:
    cmake ..
    make
    ```
-4. Flash to RP2350A via USB or SWD
+4. Flash to RP2354B via USB or SWD
 5. Connect via serial interface (115200 baud)
 6. Configure using serial commands
 7. Optional: Integrate with ESPHome for monitoring and display
@@ -378,7 +378,7 @@ See the [ESPHome interface documentation](https://github.com/clowrey/isoSPI-M3Y-
 ### Related Resources
 
 - **Firmware Repository:** [isoSPI-M3Y-BMS](https://github.com/clowrey/isoSPI-M3Y-BMS)
-- **RP2350A Datasheet:** [Raspberry Pi Documentation](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf)
+- **RP2354B Datasheet:** [Raspberry Pi Documentation](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf)
 - **INA228 Datasheet:** [Texas Instruments](https://www.ti.com/product/INA228)
 - **Pico SDK:** [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk)
 - **can2040 Library:** [Kevin O'Connor's can2040](https://github.com/KevinOConnor/can2040)
@@ -455,13 +455,13 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 ## 📋 Changelog
 
-### Hardware Version 2.0 (December 2025) - RP2350A Platform
+### Hardware Version 2.0 (December 2025) - RP2354B Platform
 
 **Complete platform migration supporting firmware v2.0.0:**
 
 #### **Major Hardware Changes**
 
-* **Microcontroller:** Migrated from ESP32 to Raspberry Pi RP2350A
+* **Microcontroller:** Migrated from ESP32 to Raspberry Pi RP2354B
   - Dual Cortex-M33 cores @ 150MHz
   - QFN-60 package with thermal management
   - Native USB support for programming and debugging
@@ -519,7 +519,7 @@ This hardware revision requires **firmware v2.0.0 or later** from the companion 
 
 ## ⚙️ Project Status
 
-**Current Hardware Version:** v2.0 (RP2350A-based design)
+**Current Hardware Version:** v2.0 (RP2354B-based design)
 
 **PCB Development Status:**
 - ✅ Schematic design complete

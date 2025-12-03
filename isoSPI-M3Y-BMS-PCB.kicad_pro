@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -475,9 +475,9 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.223,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -496,7 +496,7 @@
         "line_style": 0,
         "name": "Power_Logic",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.2,
         "via_diameter": 1.2,
@@ -504,12 +504,22 @@
         "wire_width": 16
       },
       {
+        "clearance": 0.15,
+        "name": "Power_Logic_Small",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.22,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 24,
         "clearance": 0.2,
         "line_style": 0,
         "name": "Power_contactor",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.4,
         "via_diameter": 1.2,
@@ -524,7 +534,7 @@
         "line_style": 0,
         "name": "contactor",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.4,
         "via_diameter": 0.6,
@@ -596,6 +606,10 @@
       {
         "netclass": "contactor",
         "pattern": "C FC-Neg (GND)"
+      },
+      {
+        "netclass": "Power_Logic_Small",
+        "pattern": "+3.3V"
       }
     ]
   },
