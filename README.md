@@ -14,6 +14,8 @@ This repository contains the **KiCad PCB design files** for a replacement Batter
 
 ## ⚡ Overview
 
+![PCB Design](isoSPI-M3Y-BMS-PCB.jpg)
+
 This PCB design implements a complete BMS controller capable of:
 
 - **Direct BMB Communication**: isoSPI master interface for Battery Management Boards
