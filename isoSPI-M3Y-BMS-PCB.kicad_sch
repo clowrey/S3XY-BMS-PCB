@@ -14954,6 +14954,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0)
@@ -22295,7 +22481,7 @@
 	)
 	(text "Contactor AND gate enable output"
 		(exclude_from_sim no)
-		(at 708.914 156.21 0)
+		(at 757.936 155.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22684,6 +22870,17 @@
 			)
 		)
 		(uuid "fda617bb-4829-498f-9074-045d83ff6505")
+	)
+	(text "Manually solder if not installing supervisor MCU"
+		(exclude_from_sim no)
+		(at 748.792 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff5f1568-a159-4b3f-827a-e4b076b711db")
 	)
 	(text_box "- 2 contactors always on\n- existing HV output connection"
 		(exclude_from_sim no)
@@ -23516,6 +23713,12 @@
 		(uuid "40d7be5c-edaa-4da6-9d55-d77833c1e775")
 	)
 	(junction
+		(at 374.65 364.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "414082f7-de5d-4afc-be7f-e1bfaafa19c7")
+	)
+	(junction
 		(at 652.78 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23964,6 +24167,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71b4b560-f9fa-4172-8908-b5b4c1bb9544")
+	)
+	(junction
+		(at 374.65 359.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71d3050e-7d92-4335-8d0f-16f8eea8f49e")
 	)
 	(junction
 		(at 401.32 374.65)
@@ -24864,6 +25073,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0814aff-6525-427b-85b1-7e55f71a76ef")
+	)
+	(junction
+		(at 746.76 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0855956-9fb1-415a-b2c6-85a5c1255963")
 	)
 	(junction
 		(at 737.87 307.34)
@@ -26103,6 +26318,16 @@
 	)
 	(wire
 		(pts
+			(xy 746.76 154.94) (xy 750.57 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d80f16a-e20c-44ba-a377-d8b8f4878fce")
+	)
+	(wire
+		(pts
 			(xy 55.88 265.43) (xy 58.42 265.43)
 		)
 		(stroke
@@ -26563,7 +26788,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 359.41) (xy 378.46 359.41)
+			(xy 372.11 359.41) (xy 374.65 359.41)
 		)
 		(stroke
 			(width 0)
@@ -27150,6 +27375,16 @@
 			(type default)
 		)
 		(uuid "1f3d2e2b-53fd-4f0c-b59f-71b0438594ea")
+	)
+	(wire
+		(pts
+			(xy 739.14 154.94) (xy 746.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f714cd9-3641-4201-b9d0-ba81053acfc2")
 	)
 	(wire
 		(pts
@@ -32823,6 +33058,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 359.41) (xy 378.46 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee6abb0-70c0-4ee5-bb0a-774e4d2e521f")
+	)
+	(wire
+		(pts
 			(xy 283.21 119.38) (xy 283.21 118.11)
 		)
 		(stroke
@@ -33003,7 +33248,7 @@
 	)
 	(wire
 		(pts
-			(xy 680.72 154.94) (xy 702.31 154.94)
+			(xy 680.72 154.94) (xy 734.06 154.94)
 		)
 		(stroke
 			(width 0)
@@ -33293,7 +33538,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 364.49) (xy 383.54 364.49)
+			(xy 369.57 364.49) (xy 374.65 364.49)
 		)
 		(stroke
 			(width 0)
@@ -40133,6 +40378,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 364.49) (xy 383.54 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc02448b-71e8-48c3-b4af-e689776d89a4")
+	)
+	(wire
+		(pts
 			(xy 365.76 317.5) (xy 372.11 317.5)
 		)
 		(stroke
@@ -46271,7 +46526,7 @@
 	)
 	(global_label "C_En"
 		(shape input)
-		(at 702.31 154.94 0)
+		(at 750.57 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -46281,7 +46536,7 @@
 		)
 		(uuid "ded7ae09-d500-4fb9-96b8-b7202e2460d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 708.3264 154.94 0)
+			(at 756.5864 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55021,6 +55276,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 746.76 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d6261b3-0499-4d6d-af4b-deff2799f1e9")
+		(property "Reference" "JP15"
+			(at 749.3 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 749.3 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 746.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 746.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 746.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd4c3724-7370-445d-85dd-3f93b9338503")
+		)
+		(pin "1"
+			(uuid "4a8b4a36-113c-4f6b-806f-e1857ffd9447")
+		)
+		(instances
+			(project ""
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 170.18 166.37 0)
 		(unit 1)
@@ -55389,6 +55715,83 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 374.65 361.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32055207-117b-40bc-8c0a-9c5df7a30ed1")
+		(property "Reference" "R61"
+			(at 375.92 353.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510r"
+			(at 375.92 357.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 374.65 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 374.65 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23193"
+			(at 374.65 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c19c3691-d604-4325-ac02-a5fa6fda1763")
+		)
+		(pin "2"
+			(uuid "395879af-46b7-465e-9f78-2bf441746dfb")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -61754,6 +62157,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 746.76 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51a430cb-f31b-46b4-af6a-dfd5b22bbf5e")
+		(property "Reference" "#PWR040"
+			(at 746.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 743.204 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 746.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 746.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 746.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b55eee29-4b06-498b-b754-c980c0749495")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 191.77 411.48 90)
 		(mirror x)
@@ -64089,6 +64558,73 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 745.49 485.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f47baf3-dc35-4d5b-ac90-df3998a1f2b3")
+		(property "Reference" "H8"
+			(at 741.426 485.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 741.172 484.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
+			(at 745.49 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 745.49 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 745.49 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "364990f9-bd6f-4d66-808e-344935c263c3")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -69822,7 +70358,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23193"
+		(property "JLCPCB Part #" "DNP"
 			(at 114.3 501.65 0)
 			(effects
 				(font
@@ -73211,6 +73747,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 777.24 485.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d469332-e715-4c2b-a172-2abb6ebb40cb")
+		(property "Reference" "H6"
+			(at 781.558 485.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 781.558 486.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
+			(at 777.24 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 777.24 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 777.24 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae09fe3-9044-4b45-ad50-63ae09e3ca41")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 553.72 115.57 0)
 		(unit 1)
@@ -75395,6 +75998,84 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 736.6 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c04457f-d83d-4fa5-9591-6c30c378e7fd")
+		(property "Reference" "R58"
+			(at 738.632 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 737.616 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 736.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 736.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 736.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C21190"
+			(at 736.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c08ef0d8-86ef-4488-9501-aeaf0e7a0a3e")
+		)
+		(pin "2"
+			(uuid "c1412c2a-3c54-4281-a6ce-a6f3dbcbb04d")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "R58")
 					(unit 1)
 				)
 			)
