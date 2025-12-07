@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "BMS_Library")(type "KiCad")(uri "${KIPRJMOD}/BMS_Library.pretty")(options "")(descr ""))
   (lib (name "RP2350_80QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2350B/RP2350_80QFN_minimal.pretty")(options "")(descr ""))
-  (lib (name "Panelization")(type "KiCad")(uri "${KIPRJMOD}/Panelization.pretty")(options "")(descr ""))
 )
